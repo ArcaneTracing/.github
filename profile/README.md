@@ -87,7 +87,7 @@ See the [documentation](https://arcanetracing.com/docs/intro) for detailed setup
 
 ## 📂 Source code (monorepo)
 
-Arcane’s backend, frontend, worker, SDKs, and Docker Compose deployment assets live in a **single repository**:
+Arcane’s **application code** (backend, frontend, worker, SDKs) lives in **[arcane](https://github.com/ArcaneTracing/arcane)**. **Docker Compose** for local and self-hosted full-stack runs is in **[arcane-deployment](https://github.com/ArcaneTracing/arcane-deployment)**.
 
 | Path | Description |
 |------|-------------|
@@ -95,7 +95,6 @@ Arcane’s backend, frontend, worker, SDKs, and Docker Compose deployment assets
 | [`frontend/`](https://github.com/ArcaneTracing/arcane/tree/main/frontend) | Web application (TypeScript) |
 | [`worker/`](https://github.com/ArcaneTracing/arcane/tree/main/worker) | Background worker (Python) |
 | [`sdks/`](https://github.com/ArcaneTracing/arcane/tree/main/sdks) | Official `arcane-sdk` (Python & TypeScript) |
-| [`local-deployment/`](https://github.com/ArcaneTracing/arcane/tree/main/local-deployment) | Docker Compose stacks |
 
 Contributing guidelines: [`CONTRIBUTING.md`](https://github.com/ArcaneTracing/arcane/blob/main/CONTRIBUTING.md) · Root overview: [`README.md`](https://github.com/ArcaneTracing/arcane/blob/main/README.md)
 
