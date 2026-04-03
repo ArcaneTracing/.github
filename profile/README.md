@@ -85,15 +85,19 @@ Deploy Arcane with Docker Compose using pre-built images. Choose from base, Temp
 
 See the [documentation](https://arcanetracing.com/docs/intro) for detailed setup guides.
 
-## 📂 Repositories
+## 📂 Source code (monorepo)
 
-| Repository | Description |
-|------------|-------------|
-| [arcane-backend](https://github.com/ArcaneTracing/arcane-backend) | Core backend service (TypeScript) |
-| [arcane-frontend](https://github.com/ArcaneTracing/arcane-frontend) | Web application (TypeScript) |
-| [arcane-worker](https://github.com/ArcaneTracing/arcane-worker) | Background worker (Python) |
-| [arcane-sdks](https://github.com/ArcaneTracing/arcane-sdks) | SDKs for instrumentation (Python) |
-| [arcane-deployment](https://github.com/ArcaneTracing/arcane-deployment) | Deployment configurations |
+Arcane’s backend, frontend, worker, SDKs, and Docker Compose deployment assets live in a **single repository**:
+
+| Path | Description |
+|------|-------------|
+| [`backend/`](https://github.com/ArcaneTracing/arcane/tree/main/backend) | Core API (NestJS, TypeScript) |
+| [`frontend/`](https://github.com/ArcaneTracing/arcane/tree/main/frontend) | Web application (TypeScript) |
+| [`worker/`](https://github.com/ArcaneTracing/arcane/tree/main/worker) | Background worker (Python) |
+| [`sdks/`](https://github.com/ArcaneTracing/arcane/tree/main/sdks) | Official `arcane-sdk` (Python & TypeScript) |
+| [`local-deployment/`](https://github.com/ArcaneTracing/arcane/tree/main/local-deployment) | Docker Compose stacks |
+
+Contributing guidelines: [`CONTRIBUTING.md`](https://github.com/ArcaneTracing/arcane/blob/main/CONTRIBUTING.md) · Root overview: [`README.md`](https://github.com/ArcaneTracing/arcane/blob/main/README.md)
 
 ## 💭 Support
 
@@ -105,4 +109,4 @@ See the [documentation](https://arcanetracing.com/docs/intro) for detailed setup
 
 Get started for free or schedule a demo to see how Arcane can transform your GenAI observability.
 
-[**Start Free Now**](https://arcanetracing.com/docs/intro) · [**Star on GitHub**](https://github.com/ArcaneTracing)
+[**Start Free Now**](https://arcanetracing.com/docs/intro) · [**Star on GitHub**](https://github.com/ArcaneTracing/arcane)
